@@ -1,4 +1,3 @@
-# variables
 miVariable = 3
 print(miVariable)
 miVariable = "hola a todos los estudiantes de la tecnicatura"
