@@ -3,11 +3,13 @@ a: str = "hola alumnos"
 print(type(a))
 a = 10
 print(type(a))
+
 # tipos de datos booleanos
 a = True
 print(type(a))
 a = False
 print(type(a))
+
 
 # tipos int, float, String, Bool
 x = 10
@@ -26,6 +28,7 @@ x = False
 print(x)
 print(type(x))
 
+
 # manejo de cadenas (String)
 miGrupoFavorito = "los fundamentalistas: ""the best rock band"
 print("mi grupo favorito es: ", miGrupoFavorito)
@@ -37,6 +40,7 @@ numero2 = "8"
 print(numero1 + numero2) # no puede sumar un string con otro string
 print(int(numero1) + int(numero2)) # estamos convirtiendo el String en entero "int"
 
+
 # tipos de datos booleanos (bool)
 miBoleano = True
 print(miBoleano)
@@ -46,11 +50,15 @@ miBoleano = 1 > 2
 print(miBoleano)
 miBoleano = 1 > 2
 print(miBoleano)
+
+
 # condicional doble "if", "else"
 if miBoleano:
     print("mi resultado es verdadero ")
 else:
     print("mi resultado es falso")
+
+
 # procesar entrada del usuario
 # funcion "input"
 resultado = input("digite un numero:") # input nos regresa un dato tipo String

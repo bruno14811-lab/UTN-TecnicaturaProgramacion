@@ -1,3 +1,4 @@
+# operador de asignacion
 miVariable3 = 10
 print(miVariable3)
 
